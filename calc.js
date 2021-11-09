@@ -28,6 +28,8 @@ reader.question("What would you like to calculate?", function(input){
 
   } else if (mathSymbol === "sqrt"){
 	console.log(Math.sqrt(num1));
+  } else {
+	console.log("Hello, world!")
   }
 
     console.log(num1,mathSymbol, num2)
